@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AlarmProtect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bienvenue sur votre interface Alarm-Protect</h1>
+
+    <h2>
+        L'état de votre logement
+    </h2>
+    <img src="shield.png" alt="" width="50px" height="50px">
+    <p>
+        Votre logement est sécurisé
+    </p>
+    <p class="flotte">
+        <img src="images/new.png" alt="Nouveau !" />
+    </p>
+    <p>
+        Toutes les nouveautés, rien que des nouveautés.
+    </p>
+    
+    <div class="clickEvent">
+        <button id="btn">Appuyez !</button>
+        <br>
+        <img src="voleur.png" id= "img" alt="">
+    </div>
+    <div class="mouseEvent">
+        <div>Horizontal: <span class = "horizontal">0</span></div>
+        <div>Vertical: <span class = "vertical">0</span></div>
+    </div>
+
+    <div class="inputEvent">
+        <label for="input">Comment ça va aujourd'hui ?</label>
+        <br>
+        <input type="text" id="input">
+        <div id="result"></div>
+    </div>
+    <div class="themeContainer">
+        <div class = "theme" id="dark"></div>
+        <div class = "theme" id="salmon"></div>
+        <div class="theme" id="yellow"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
